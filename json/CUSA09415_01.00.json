@@ -1,0 +1,27 @@
+{
+  "name": "Undertale",
+  "id": "CUSA09415",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Sonsuz Can",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "204E2B4E6",
+          "on": "99",
+          "off": "20"
+        },
+        {
+          "offset": "204E2B4F6",
+          "on": "99",
+          "off": "20"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Talixme"
+  ]
+}
